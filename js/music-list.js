@@ -1,70 +1,70 @@
 let allMusic = [{
     name: "24k magic",
     artist: "Bruno Mars",
-    img:"music-1.jpg",
-    src: "music-1"
+    img:"music-1",
+    src: "24k_Magic"
 },
 
 {
     name: "Feeling good",
     artist: "Michael Bublé",
-    img:"feeling_good.jpg",
-    src: "music-2"
+    img:"feeling_good",
+    src: "Feeling_Good"
 },
 
 {
     name: "Kiwi",
     artist: "Harry Styles",
-    img:"Kiwi.jpg",
-    src: "music-3"
+    img:"kiwi",
+    src: "Kiwi"
 },
 
 {
     name: "Look what you made me do",
     artist: "Taylor Swift",
-    img: "music-4",
-    src: "music-4"
+    img: "Look_What_You_Made_Me_Do",
+    src: "Look_what_you_made_me_do"
 },
 
 {
     name: "Some like you",
     artist: "Adele",
-    img: "music-5",
-    src: "music-5"
+    img: "some_like",
+    src: "some_like_you"
 },
 {
 name: "Flowers",
 artist: "Miley cyrus",
-img: "music-6",
-src: "music-6"
+img: "flowers",
+src: "Flowers"
 },
 
 {
-name: "Locked out the heaven",
+name: "Locked out of heaven",
 artist: "Bruno Mars",
-img: "music-7",
-src: "music-7"
+img: "Locked_Out_of_Heaven",
+src: "Locked_Out_Of_Heaven"
 },
 
 {
 name: "Count on me",
 artist: "Bruno Mars",
-img: "music-8",
-src: "music-8"
+img: "count_on_me",
+src: "Count_On_me"
 },
 
 {
 name: "skyfall",
 artist: "Adele",
-img: "music-9",
-src: "music-9"
+img: "skyfall",
+src: "Skyfall"
 },
 
 {
 name: "Set fire to the rain",
 artist: "Adele",
-img: "music-10",
-src: "music-10"
+img: "set_fire_to_the_rain",
+src: "Set_Fire_To_The_Rain"
 },
 
 

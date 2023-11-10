@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
 function loadMusic(indexNumb) {
     musicName.innerText = allMusic[indexNumb - 1].name;
     musicArtist.innerText = allMusic[indexNumb - 1].artist;
-    musicImg.src=`./img/${allMusic[indexNumb - 1].img}`;
+    //musicImg.src=`./img/${allMusic[indexNumb - 1].img}.jpg`;
     mainAudio.src = `./music/${allMusic[indexNumb -  1].src}.mp3`;
 }
 
@@ -36,3 +36,31 @@ function pauseMusic() {
     playPauseBtn.innerHTML = `<i class="fi fi-src-play"></i>`;
     mainAudio.pause();
 }
+
+function prevMusic(){
+    musicIndex--;
+    musicIndex < 1 ? musicIndex = allMusic.length : musicIndex = musicIndex;
+    loadMusic(musicIndex);
+    playMusic();
+}
+
+function nextMusic(){
+    musicIndex++;
+    musicIndex > allMusic.length ? musicIndex = 1 : musicIndex = musicIndex;
+    loadMusic(musicIndex);
+    playMusic();
+}
+
+playPauseBtn.addEventListener("click", () => {
+    const isMusicPlay = wrapper.classList.contains("paused");
+    isMusicPlay ? pauseMusic() : playMusic();
+});
+
+prevBtn.addEventListener("click", () => {
+    prevMusic();
+} );
+
+nextBtn.addEventListener("click", () => {
+    nextMusic();
+} );
+
