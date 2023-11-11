@@ -30,7 +30,7 @@ let allMusic = [{
     name: "Some like you",
     artist: "Adele",
     img: "some_like",
-    src: "some_like_you"
+    src: "someone_like_you"
 },
 {
 name: "Flowers",
