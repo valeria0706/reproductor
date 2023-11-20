@@ -32,7 +32,7 @@ function playMusic() {
 
 function pauseMusic() {
     wrapper.classList.remove("paused");
-    musicImg.classList.remove('rotate');
+    //musicImg.classList.remove('rotate');
     playPauseBtn.innerHTML = `<i class="fi fi-sr-play"></i>`;
     mainAudio.pause();
 }
