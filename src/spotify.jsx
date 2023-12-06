@@ -1,6 +1,4 @@
 import axios from 'axios';
-
-
 const authEndpoint ="https://accounts.spotify.com/authorize?" ;
 const clientId="a4df8200b6bc42118fd7af0d861fe90e";
 const redirectUri="http://localhost:5173/";
