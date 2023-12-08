@@ -13,3 +13,12 @@
     border-radius: 20px;
     margin-top: 20px;
 }
+
+img{
+    border-radius: 20px;
+}
+
+.nombre{
+    font-size: 70px;
+    color: white;
+}

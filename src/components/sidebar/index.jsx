@@ -10,7 +10,8 @@ import { MdSpaceDashboard } from "react-icons/md";
 import apiClient from "../../spotify";
 
 export default function Sidebar() {
-  const[image,setImage]=useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4z-KNfGTZ6Q0hrkJewyJRIp7DgWTVZVal5w&usqp=CAU");
+  const[image,setImage]=useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4z-KNfGTZ6Q0hrkJewyJRIp7DgWTVZVal5w&usqp=CAU"
+  );
   useEffect(()=>{
     apiClient.get("me").then(response =>{
       setImage(response.data.images[0].url);

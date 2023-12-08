@@ -29,14 +29,14 @@ export default function Home() {
   }, [])
   return!token ? (
     <Login/> 
-  ):(
+  ) : (
 
     <Router>
       <div className="main-body">
         
         <Sidebar />
         <Routes>
-          <Route path="/library" element={<Library />} />
+          <Route path="/" element={<Library />} />
           <Route path="/feed" element={<Feed />} />
           <Route path="/trending" element={<Trending />} />
           <Route path="/player" element={<Player />} />

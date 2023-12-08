@@ -19,7 +19,7 @@ const[playlists, setPlaylists]=useState(null);
   const navigate = useNavigate();
 
   const playPlaylist = (id) =>{
-    navigate('/player', {state:{id: id}})
+    navigate('/player', {state:{}})
   };
   return (
   <div className="screen-container">
